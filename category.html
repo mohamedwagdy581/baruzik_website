@@ -13,10 +13,10 @@
     <!-- Meta tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="assets/image/png" href="assets/images/baruziklogo.png">
 
     <!--Title-->
-    <title>Blog article | Mobel - Furniture Website Template</title>
+    <title>مؤسسة بارزيق</title>
 
     <!--CSS styles-->
     <link rel="stylesheet" media="all" href="css/bootstrap.css" />
@@ -28,6 +28,8 @@
     <link rel="stylesheet" media="all" href="css/owl.carousel.css" />
     <link rel="stylesheet" media="all" href="css/ion-range-slider.css" />
     <link rel="stylesheet" media="all" href="css/theme.css" />
+    <!--RTL Support -->
+    <link rel="stylesheet" media="all" href="css/theme-rtl.css" />
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&amp;subset=latin-ext" rel="stylesheet">
@@ -69,12 +71,10 @@
                         <!--Currency selector-->
 
                         <li class="nav-settings">
-                            <a href="javascript:void(0);" class="nav-settings-value"> USD $</a>
+                            <a href="javascript:void(0);" class="nav-settings-value"> SR </a>
                             <ul class="nav-settings-list">
+                                <li>SR </li>
                                 <li>USD $</li>
-                                <li>EUR €</li>
-                                <li>CHF Fr.</li>
-                                <li>GBP £</li>
                             </ul>
                         </li>
 
@@ -84,9 +84,7 @@
                             <a href="javascript:void(0);" class="nav-settings-value"> ENG</a>
                             <ul class="nav-settings-list">
                                 <li>ENG</li>
-                                <li>GER</li>
                                 <li>لعربية</li>
-                                <li>עִבְרִית</li>
                             </ul>
                         </li>
                         <li><a href="javascript:void(0);" class="open-login"><i class="icon icon-user"></i></a></li>
@@ -119,19 +117,66 @@
 
                         <ul>
                             <li><a href="index.html">الرئيسية</a></li>
-                            
-                            <!-- Multi-content dropdown -->
+                            <li>
+                                <a href="index.html">خدماتنا  <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <div class="navbar-dropdown">
+                                    <div class="navbar-box">
 
-                            <!-- Single dropdown-->
+                                        <!-- box-1 (left-side)-->
 
-                            <!-- Furniture icons in dropdown-->
+                                        <div class="box-1">
+                                            <div class="box">
+                                                <div class="h2">تصفح خدماتنا</div>
+                                                <div class="clearfix">
+                                                    <p>تصفح جميع خدماتنا لتحصل على ما تريد بارخص الاسعار واجود الامكانيات وارقى الخدمات.</p>
+                                                </div>
+                                            </div>
+                                        </div>
 
+                                        <!-- box-2 (right-side)-->
 
-                            <!-- Mega menu dropdown -->
-
-
-                            <!-- Simple menu link-->
-
+                                        <div class="box-2">
+                                            <div class="box clearfix">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li class="label">الأنظمةالأمنية</li>
+                                                            <li><a href="index.html">الأنظمةالأمنية</a></li>
+                                                            <li><a href="index-2.html">الصيانة</a></li>
+                                                            <li><a href="index-3.html">الشبكات والاتصالات</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li class="label">الأجهزةالإلكترونية</li>
+                                                            <li><a href="blog-grid.html">الحاسوب المحمول (لابتوب)</a></li>
+                                                            <li><a href="blog-list.html">الأجهزة المكتبية</a></li>
+                                                            <li><a href="blog-grid-fullpage.html">الطابعات</a></li>
+                                                            <li><a href="ideas.html">الإكسسوارات</a></li>
+                                                            <li><a href="article.html">الأحبار والخدمات الأخرى</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <ul>
+                                                            <li class="label">البرمجيات</li>
+                                                            <li><a href="mobiledescription.html">تطبيقات الجوال</a></li>
+                                                            <li><a href="webdescription.html">تصميم المواقع الإلكترونية</a></li>
+                                                            <li><a href="graphicdesigndescription.html">تصميم الجرافيك <span class="label label-warning">New</span></a></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li class="label">التجهيزات المكتبية</li>
+                                                            <li><a href="shortcodes.html">المكاتب</a></li>
+                                                            <li><a href="email-receipt.html">الأثاث المكتبي <span class="label label-warning">New</span></a></li>
+                                                            <li><a href="404.html">الإكسسوارات المكتبية <span class="label label-warning">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div> <!--/row-->
+                                            </div> <!--/box-->
+                                        </div> <!--/box-2-->
+                                    </div> <!--/navbar-box-->
+                                </div> <!--/navbar-dropdown-->
+                            </li>
+                            <li><a href="#">تواصل معنا</a></li>
                         </ul>
                     </div> <!--/floating-menu-->
                 </div> <!--/navigation-main-->
@@ -142,7 +187,7 @@
 
                     <!-- Search form -->
                     <input class="form-control" placeholder="Search..." />
-                    <button class="btn btn-main btn-search">! بحث</button>
+                    <button class="btn btn-main btn-search">Go!</button>
 
                     <!-- Search results - live search -->
                     <div class="search-results">
@@ -352,122 +397,148 @@
 
         <!-- ========================  Main header ======================== -->
 
-        <section class="main-header main-header-blog" style="background-image:url(assets/images/gallery-1.jpg)">
-            <header>
-                <div class="container text-center">
-                    <h2 class="h2 title">تطبيقات الجوال</h2>
-                    <ol class="breadcrumb breadcrumb-inverted">
-                        <li><a href="index.html"><span class="icon icon-home"></span></a></li>
-                        <li><a href="blog-grid.html">قسم التطبيقات</a></li>
-                        <li><a class="active" href="article.html">تطبيقك نسويه ...</a></li>
-                    </ol>
+        <section class="main-header" style="background-image:url(assets/images/furniture_banner.jpg)">
+            <header class="hidden">
+                <div class="container">
+                    <h1 class="h2 title">فئة</h1>
                 </div>
             </header>
         </section>
 
-        <!-- ========================  Blog article ======================== -->
+        <!-- ========================  Products ======================== -->
 
-        <section class="blog">
-
-            <!-- === blog navigation === -->
-
-            <div class="blog-navigation">
-                <!-- === nav previous === -->
-
-                <a class="nav-link prev" href="#">
-                    <figure>
-                        <div class="image">
-                            <img src="assets/images/blog-2.jpg" alt="Alternate Text">
-                        </div>
-                        <figcaption>
-                            <div class="blog-title h6">The 3 Tricks that Quickly Became Rules</div>
-                        </figcaption>
-                    </figure>
-                </a>
-
-                <!-- === nav next === -->
-
-                <a class="nav-link next" href="#">
-                    <figure>
-                        <div class="image">
-                            <img src="assets/images/blog-3.jpg" alt="Alternate Text">
-                        </div>
-                        <figcaption>
-                            <div class="blog-title h6">What does your favorite dining chair say about you?</div>
-                        </figcaption>
-                    </figure>
-                </a>
-            </div> <!--/blog-navigation-->
-            <!-- ========================  Blog post ======================== -->
-
+        <section class="products">
             <div class="container">
+
+                <header>
+                    <div class="row">
+                        <div class="col-md-offset-2 col-md-8 text-center">
+                            <h2 class="title">فئات المنتجات</h2>
+                            <div class="text">
+                                <p>اختر الفئة</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
 
                 <div class="row">
 
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <!-- === product-item === -->
 
-                        <div class="blog-post">
-
-                            <!-- === blog main image & entry info === -->
-
-                            <div class="blog-image-main">
-                                <img src="assets/images/mobile_designing.png" alt="" />
-                            </div>
-
-                            <div class="blog-post-content">
-
-                                <!-- === blog post title === -->
-
-                                <div class="blog-post-title">
-                                    <h1 class="blog-title">
-                                        تصميم تطبيق الجوال بإحتراف ودقه
-                                    </h1>
-                                    <h2 class="blog-subtitle h5">
-                                        اذا كنت تريد الحصول علي خدمة تطوير تطبيق الجوال بشكل احترافي يحقق أهدافك من برمجة هذا التطبيق إذا فأنت يجب أن تتعامل مع فريق برمجي محترف  يتميز بقدرته علي ترجمة أي فكرة برمجية تخطر بذهنك و ليس هذا و حسب بل يجب ان يكون عامل الوقت مهم جدا في انجاز المشروع و هذا عادة يتطلب كفاءة عالية في التنفيذ، وبما أنك قد وصلت هنا فيسرنا نحن في فكرة الرقمية للحلول البرمجية وخدمات الويب ان نقدم لك هذه الخدمة و على اكمل وجه.
-                                    </h2>
-
-                                    <div class="blog-info blog-info-top">
-                                        <div class="entry">
-                                            <i class="fa fa-user"></i>
-                                            <span>Mohamed Wagdy</span>
-                                        </div>
-                                        <div class="entry">
-                                            <i class="fa fa-calendar"></i>
-                                            <span>03.09.2022</span>
-                                        </div>
-                                        <div class="entry">
-                                            <i class="fa fa-comments"></i>
-                                            <span>4 comments</span>
-                                        </div>
-                                    </div> <!--/blog-info-->
+                    <div class="col-md-4 col-xs-6">
+                        <article>
+                            <div class="figure-block">
+                                <div class="image">
+                                    <a href="products-grid.html">
+                                        <img src="assets/images/lenovogaming.jpg" alt="" width="360" />
+                                    </a>
                                 </div>
-
-                                <!-- === blog post text === -->
-
-                                <div class="blog-post-text">
-
-                                    <h4>لماذا تختار فكرة؟</h4>
-                                    <p>
-                                        نستخدم افضل البرمجيات و الادوات في تنفيذ التطبيقات الذكية و التي تساعدنا على اداء المهمة بكفاءة عالية و اهمها انظمة ادارة المحتوى من  جافا لهواتف الاندرويد و سويفت لأجهزة الايفون  حيث اننا نعمل بتقنية البرمجة من الصفر  NATIVE PROGRAMMING  و التي تتميز عن CROOS  و WebView     بما يلي :  
-
-برمجة NATIVE تعتبر من اكثر التقنيات استقرارا و تتميز بعدم تعرضها للجمود او التعليق في التطبيقات و اكثرها توافقا مع التطوير المستمر على برمجيات المتاجر المستضيفة لها .
-قد يعتقد البعض ان برمجة التطبيقات باستخدام تقنية NATIVE   مكلف من الناحية المادية اكثر من الكروس و الهابيرد ، من ناحية مبدئية هذا الاعتقاد سليم شريطة ان يستمر تطبيق الهايبرد بالعمل كما هو المطلوب منه !! اظهرت دراسة اجرتها قسم الاستشارات و التطوير ان 87.5% من التطبيقات المعمولة على تقنية الكروس او الهايبرد يتم اعادة بنائها  مره اخرى بعد 6 اشهر باستخدام تقنية NATIVE   ... لذا فمن الاجدى ان نقول ان تقنية ال NATIVE   اوفر من تقنية الكروس و الهايبرد.
-برمجة التطبيقات بتقنية NATIVE   تعتبر الاسرع بين لغات البرمجة اذا انها تستخدم طريقة مختلفة و مبتكرة في استدعاء الصور و ملفات الفيديو عند الطلب مما يخفف الحمل على التطبيق و السيرفر و يسرع التحميل بشكل كبير.
-الاقبال الشديد حاليا على برمجة التطبيقات بتقنية  NATIVE  يرجع الى ان APPLE   اعتمدت سياسة جديد في قبول التطبيقات لديها و هذا اثر بشكل كبير على  التطبيقات المشغولة على كروس و هايبرد 
-درجة امان مرتفعة جدا للمعلومات المخزنة داخل التطبيق  اذا ان التقنية البرمجية NATIVE  توفر اربعة مستويات من الحماية المعقدة للمعلومات مما يجعل الامر شبه مستحيل على المخترقين لسرقة البيانات ؛ البيت الابيض الامريكي و تطبيق فيس بوك من اهم المواقع التي تستخدم تقنية NATIVE  .
-                                    </p>
-                                    <p><img src="assets/images/blog-3.jpg" alt="" /></p>
-                                    <p>
-                                        نتفهم التخوف الموجود لدى البعض من الدخول في تجربة اعمال تتطلب استثمار كبير منك و في ظل الظروف الحالية و تقلب السوق المستمر البعض يرى من الافضل الاحتفاظ بمدخراته بأمان ، لكن هل هذا هو الحل ؟؟ بالطبع لا  !!
-لذا قمنا بتصميم باقات اشتراك شهرية تتيح لك الفرصة البدء بمشروع العمر و البدء بالتجارة الالكترونية دون ان تستثمر مبلغا كبيرا بالبداية و حين الوصول لقناعة بان مشروعك قد شق طريقه وسط المنافسين يمكنك الجلوس معنا و امتلاك مشروعك للابد مع خصم كافة مبالغ الاشتراك المدفوعة من قيمة المشروع الاجمالية 
-
-باختصار سوف نتحمل عنك نسبة المخاطرة و ستبقى انت تعمل بالمضمون  ، و يوجد دائما فرصة لمناقشة امتلاكك مشروعك من البداية اذا كنت ترغب بذلك.
-                                    </p>
+                                <div class="text">
+                                    <h2 class="title h4"><a href="products-grid.html">لابتوب لينوفو للألعاب</a></h2>
+                                    <sup>الوصف</sup>
+                                    <span class="description clearfix">لابتوب لينوفو الجيل العاشر رامات 32 جيجا هارد 256 + هارد 2 تيرا + كارت شاشة خارجي قوي 8 جيجا</span>
                                 </div>
                             </div>
-                        </div><!--blog-post-->
-                    </div><!--col-sm-8-->
-                </div> <!--/row-->
+                        </article>
+                    </div>
+
+                    <!-- === product-item === -->
+
+                    <div class="col-md-4 col-xs-6">
+                        <article>
+                            <div class="figure-block">
+                                <div class="image">
+                                    <a href="products-grid.html">
+                                        <img src="assets/images/delllaptop.jpg" alt="" width="360" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="title h4"><a href="products-grid.html">لابتوب ديل</a></h2>
+                                    <sup>الوصف</sup>
+                                    <span class="description clearfix">لابتوب ديل للتصاميم الهندسية والألعاب الجيل الثامن مع رامات 16 جيجا مع كارت شاشة خارجي قوي 4 جيجا مع هارد سريع 256 جيجا + هارد خارجي 2 تيرا </span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- === product-item === -->
+
+                    <div class="col-md-4 col-xs-6">
+                        <article>
+                            <div class="figure-block">
+                                <div class="image">
+                                    <a href="products-grid.html">
+                                        <img src="assets/images/imac2.webp" alt="" width="360" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="title h4"><a href="products-grid.html">iMac</a></h2>
+                                    <sup>الوصف</sup>
+                                    <span class="description clearfix"> iMac من شركة ابل الجيل الثامن مع رامات 12 جيجا مع هارد داخلي فائق السرعة 500 جيجا + هارد خارجي 1 تيرا مع كارت شاشة داخلي 1.5 جيجا </span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- === product-item === -->
+
+                    <div class="col-md-4 col-xs-6">
+                        <article>
+                            <div class="figure-block">
+                                <div class="image">
+                                    <a href="products-grid.html">
+                                        <img src="assets/images/monitor.webp" alt="" width="360" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="title h4"><a href="products-grid.html">شاشة msi</a></h2>
+                                    <sup>الوصف</sup>
+                                    <span class="description clearfix">شاشة msi كبيرة 40 بوصة ذات دقة عالية جدا FHD للألعاب والتصاميم الرائعة</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- === product-item === -->
+
+                    <div class="col-md-4 col-xs-6">
+                        <article>
+                            <div class="figure-block">
+                                <div class="image">
+                                    <a href="products-grid.html">
+                                        <img src="assets/images/samsung.jpg" alt="" width="360" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="title h4"><a href="products-grid.html">طابعة Samsung </a></h2>
+                                    <sup>الوصف</sup>
+                                    <span class="description clearfix">طابعة ذات سرعه ودقه في المسح الضوئي جاهزه للاتصال بالواي فاي سهله التعديل عن طريق الموبايل تطبع الابيض ولاسود والاوان</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- === product-item === -->
+
+                    <div class="col-md-4 col-xs-6">
+                        <article>
+                            <div class="figure-block">
+                                <div class="image">
+                                    <a href="products-grid.html">
+                                        <img src="assets/images/sharpprinter.png" alt="" width="360" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h2 class="title h4"><a href="products-grid.html">طابعة Sharp</a></h2>
+                                    <sup>الوصف</sup>
+                                    <span class="description clearfix">طابعة ذات سرعه ودقه في المسح الضوئي جاهزه للاتصال بالواي فاي سهله التعديل عن طريق الموبايل تطبع الابيض ولاسود والاوان</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div><!--/row-->
+       
             </div><!--/container-->
         </section>
 
@@ -480,7 +551,7 @@
                 <div class="footer-showroom">
                     <div class="row">
                         <div class="col-sm-8">
-                            <h2>قم بزيارة صالة العرض الخاصة بنا</h2>
+                            <h2>تفضل بزيارتنا</h2>
                             <p> شارع الأمير سلطان - حي الروضة - جازان - المملكة العربية السعودية</p>
                             <p> السبت - الخميس: ٨:٣٠ص –١:٣٠م  &nbsp; &nbsp; | &nbsp; &nbsp; يعيد فتح أبوابه من الساعة ٥:٠٠ – ٩:٣٠م</p>
                         </div>
@@ -520,8 +591,9 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <h5>سجل للحصول على اخر اخبارنا</h5>
-                            <p><i>أضف عنوان بريدك الإلكتروني للتسجيل في رسائل البريد الإلكتروني الشهرية وتلقي العروض الترويجية.</i></p>                            <div class="form-group form-newsletter">
-                                <input class="form-control" type="text" name="email" value="" placeholder="البريد الالكتروني" />
+                            <p><i>أضف عنوان بريدك الإلكتروني للتسجيل في رسائل البريد الإلكتروني الشهرية وتلقي العروض الترويجية.</i></p>
+                            <div class="form-group form-newsletter">
+                                <input class="form-control" type="text" name="email" value="" placeholder="البريد الإلكتروني" />
                                 <input type="submit" class="btn btn-clean btn-sm" value="اشتراك" />
                             </div>
                         </div>
@@ -533,7 +605,8 @@
                 <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="https://themeforest.net/item/mobel-furniture-website-template/20382155" target="_blank"> Developed by</a> &nbsp; | <a href="#">Baruzik Company</a> &nbsp; | &nbsp; <a href="#">Mohamed Wagdy</a>                        </div>
+                            <a href="https://themeforest.net/item/mobel-furniture-website-template/20382155" target="_blank"> Developed by</a> &nbsp; | <a href="#">Baruzik Company</a> &nbsp; | &nbsp; <a href="#">Mohamed Wagdy</a>
+                        </div>
                         <div class="col-sm-6 links">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -548,8 +621,7 @@
             </div>
         </footer>
 
-    </div>
-    <!--/wrapper-->
+    </div> <!--/wrapper-->
 
 
     <!--JS files-->
@@ -561,5 +633,4 @@
     <script src="js/jquery.isotope.pkgd.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
